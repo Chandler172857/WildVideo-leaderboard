@@ -243,17 +243,7 @@
                 </a>
               </span> -->
               <!-- Twitter Link. -->
-              <span class="link-block">
-                <a href="https://twitter.com/lupantech/status/1717313355780964608"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <!-- <i class="far fa-images"></i> -->
-                      <!-- 💻🔗 -->
-                      <p style="font-size:18px">🌐</p>
-                  </span>
-                  <span>Twitter</span>
-                </a>
-              </span>
+
             </div>
 
           </div>
@@ -331,7 +321,7 @@
     
     <div class="columns is-centered">
       <div class="column is-full has-text-centered content">
-        <h2 class="title is-3" id="leaderboard">Leaderboard on MathVista (testmini)</h2>
+        <h2 class="title is-3" id="leaderboard">Leaderboard on WildVideo (single)</h2>
         <div class="content">
           <p class="mt-3">Accuracy scores on the <b>testmini</b> subset (1,000 examples) of <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
             <span class="mathvista">MathVista</span>.
@@ -849,7 +839,7 @@
 
         </div>
 
-        <h2 class="title is-3" id="leaderboard_test">Leaderboard on MathVista (test)</h2>
+        <h2 class="title is-3" id="leaderboard_test">Leaderboard on Wildvideo (multi)</h2>
         <div class="content">
           <p class="mt-3">Accuracy scores on the <b>test</b> subset (5,141 examples with <b>private</b> ground truth) of <img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>
             <span class="mathvista">MathVista</span>.
@@ -1149,7 +1139,7 @@
     <!-- <h1 class="title is-1 mathvista"><img src="static/images/mathvista.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>MathVista Dataset</h1> -->
   <h1 class="title is-1 mathvista">
     <img src="static/images/mathvista.png" style="width:1em;vertical-align: middle" alt="Logo"/>
-    <span class="mathvista" style="vertical-align: middle">MathVista Dataset</span>
+    <span class="mathvista" style="vertical-align: middle">WildVideo Dataset</span>
   </h1>
   </div>
 </section>
@@ -1170,7 +1160,7 @@
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
           <p>
-            To solve the challenges as mentioned above, we introduce
+            We introduce
             WildVideo, a bilingual benchmark for evaluating hallucinations
             in video-based LMMs, fully aligned with real-world application
             settings. First, WildVideo incorporates multi-turn dialogues,
@@ -1214,15 +1204,11 @@
           </div> -->
 
           <p>
-            All the data examples were divided into four subsets: single_en,single_cn,multi_en and multi_cn. 
+            All the data examples were divided into two subsets: single and multi. 
             <!-- @PAN TODO: add download links -->
             <ul>
-              <li><b>single_en</b>: 1,000 examples used for model development, validation, or for those with limited computing resources.</li>
-              <li><b>single_cn</b>: 5,141 examples for standard evaluation. Notably,
-                the answer labels for test will NOT be publicly released.</li>
-              <li><b>multi_en</b>: 1,000 examples used for model development, validation, or for those with limited computing resources.</li>
-              <li><b>mulit_cn</b>: 5,141 examples for standard evaluation. Notably,
-                the answer labels for test will NOT be publicly released.</li>
+              <li><b>single</b>: 1,000 examples used for model development, validation, or for those with limited computing resources.</li>
+              <li><b>multi</b>: 1,000 examples used for model development, validation, or for those with limited computing resources.</li>
             </ul>
             You can download the dataset on <a href="https://huggingface.co/datasets/yangsongyuan18/wildvideo" target="_blank">Hugging Face Dataset</a>.
           </p>
