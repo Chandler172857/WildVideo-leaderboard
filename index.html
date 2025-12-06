@@ -53,14 +53,16 @@
 </head>
 
 <style>
-
-  #wildvideo-single {
+  #wildvideo-single,
+  #wildvideo-multi {
     border-collapse: collapse;
   }
 
   #wildvideo-single th,
-  #wildvideo-single td {
-    border: 1px solid #cccccc;
+  #wildvideo-single td,
+  #wildvideo-multi th,
+  #wildvideo-multi td {
+    border: 1px solid #999999; 
   }
 </style>
 <body>
@@ -579,58 +581,58 @@
 
             <tr>
               <td><b>Mono-InternVL-2B</b></td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
+              <td>32.2</td>
+              <td>23.4</td>
+              <td>17.3</td>
+              <td>24.0</td>
+              <td>10.8</td>
+              <td>14.5</td>
+              <td>11.4</td>
+              <td>12.1</td>
+              <td>6.9</td>
+              <td>17.0</td>
             </tr>
 
             <tr>
               <td><b>InternVL2-8B</b></td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
+              <td>31.5</td>
+              <td>30.4</td>
+              <td>34.8</td>
+              <td>48.7</td>
+              <td>10.2</td>
+              <td>22.0</td>
+              <td>25.3</td>
+              <td>13.9</td>
+              <td>15.2</td>
+              <td>25.8</td>
             </tr>
 
             <tr>
               <td><b>Qwen2-VL-7B</b></td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
+              <td>50.7</td>
+              <td>34.8</td>
+              <td>36.9</td>
+              <td><b>55.5</b></td>
+              <td><b>44.5</b></td>
+              <td>41.9</td>
+              <td>38.8</td>
+              <td><b>25.3</b></td>
+              <td>23.4</td>
+              <td>39.1</td>
             </tr>
 
             <tr>
               <td><b>MiniCPM-V2.6-8B</b></td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
+              <td><b>50.9</b></td>
+              <td><b>49.6</b></td>
+              <td><b>42.8</b></td>
+              <td>44.4</td>
+              <td>41.3</td>
+              <td><b>42.7</b></td>
+              <td><b>42.4</b></td>
+              <td>23.1</td>
+              <td><b>35.7</b></td>
+              <td><b>41.4</b></td>
             </tr>
 
             <tr>
@@ -639,86 +641,86 @@
 
             <tr>
               <td><b>Claude 3.5 Sonnet</b></td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
+              <td>33.1</td>
+              <td>39.3</td>
+              <td>24.2</td>
+              <td>39.9</td>
+              <td>35.3</td>
+              <td>35.0</td>
+              <td>68.6</td>
+              <td>32.6</td>
+              <td>30.9</td>
+              <td>37.6</td>
             </tr>
 
             <tr>
               <td><b>Gemini 1.5 Flash</b></td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
+              <td>51.7</td>
+              <td>40.0</td>
+              <td>40.0</td>
+              <td>49.9</td>
+              <td>34.4</td>
+              <td>48.2</td>
+              <td>56.0</td>
+              <td><b>47.4</b></td>
+              <td>46.6</td>
+              <td>46.0</td>
             </tr>
 
             <tr>
               <td><b>Gemini 1.5 Pro</b></td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
+              <td>56.2</td>
+              <td><b>47.8</b></td>
+              <td>43.2</td>
+              <td>64.5</td>
+              <td>37.5</td>
+              <td>44.8</td>
+              <td>73.4</td>
+              <td>43.1</td>
+              <td>37.2</td>
+              <td>49.8</td>
             </tr>
 
             <tr>
               <td><b>GPT-4V</b></td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
+              <td>55.3</td>
+              <td>41.4</td>
+              <td>33.3</td>
+              <td>31.8</td>
+              <td><b>45.2</b></td>
+              <td>48.6</td>
+              <td>77.9</td>
+              <td>37.1</td>
+              <td><b>51.4</b></td>
+              <td>46.9</td>
             </tr>
 
             <tr>
               <td><b>GPT-4o mini</b></td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
+              <td>55.0</td>
+              <td>38.5</td>
+              <td>38.3</td>
+              <td>45.2</td>
+              <td>40.1</td>
+              <td>46.3</td>
+              <td>63.1</td>
+              <td>30.8</td>
+              <td>41.8</td>
+              <td>44.3</td>
             </tr>
 
             <tr>
               <td><b>GPT-4o</b></td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
-              <td>XX.X</td>
+              <td><b>60.1</b></td>
+              <td>45.2</td>
+              <td><b>46.2</b></td>
+              <td><b>65.7</b></td>
+              <td>39.7</td>
+              <td><b>50.7</b></td>
+              <td><b>78.7</b></td>
+              <td>44.5</td>
+              <td>43.1</td>
+              <td><b>52.7</b></td>
             </tr>
           </tbody>
         </table>
