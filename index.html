@@ -864,10 +864,10 @@
 
         <div id="dataset-carousel" class="carousel results-carousel">
 
-          <!-- 第 1 页：Single + Multi -->
+          <!-- 第 1 页：Single-turn -->
           <div class="box m-5">
             <div class="columns is-centered">
-              <div class="column is-half">
+              <div class="column is-8">
                 <div class="content has-text-centered">
                   <img src="static/images/Dataset_statistics/Single_turn_questions.png"
                       alt="Single-turn questions"
@@ -875,8 +875,13 @@
                   <p>Single-turn question distribution.</p>
                 </div>
               </div>
+            </div>
+          </div>
 
-              <div class="column is-half">
+          <!-- 第 2 页：Multi-turn -->
+          <div class="box m-5">
+            <div class="columns is-centered">
+              <div class="column is-8">
                 <div class="content has-text-centered">
                   <img src="static/images/Dataset_statistics/Multi_turn_questions.png"
                       alt="Multi-turn questions"
@@ -887,10 +892,10 @@
             </div>
           </div>
 
-          <!-- 第 2 页：Duration + QA per turn -->
+          <!-- 第 3 页：Duration -->
           <div class="box m-5">
             <div class="columns is-centered">
-              <div class="column is-half">
+              <div class="column is-8">
                 <div class="content has-text-centered">
                   <img src="static/images/Dataset_statistics/Duration_distribution.png"
                       alt="Duration distribution"
@@ -898,8 +903,13 @@
                   <p>Duration (seconds) of videos in WildVideo.</p>
                 </div>
               </div>
+            </div>
+          </div>
 
-              <div class="column is-half">
+          <!-- 第 4 页：QA per turn -->
+          <div class="box m-5">
+            <div class="columns is-centered">
+              <div class="column is-8">
                 <div class="content has-text-centered">
                   <img src="static/images/Dataset_statistics/distribution.png"
                       alt="QA per turn"
@@ -938,13 +948,13 @@
         <div id="results-carousel" style="display:flex; justify-content:center; gap:2rem;">
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/Experiment/Single_turn.png" alt="context" class="stats-image">
+              <img src="static/images/Experiment/Single_turn.png" alt="context" class="stats-image" style="width:120%">
               <p>Performance of Single-turn tasks</p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/Experiment/Multi_turn.png" alt="category" class="stats-image"/>
+              <img src="static/images/Experiment/Multi_turn.png" alt="category" class="stats-image" style="width:120%">
               <p>Performance of Multi-turn tasks</p>
             </div>
           </div>
