@@ -854,19 +854,17 @@
     </div>
 
     
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/pair.png"
-                  alt="Task statistics in WildVideo"
-                  style="width:70%; max-width:900px;">
-              <p> THE NUMBER OF SINGLE-TURN AND MULTI-TURN QUESTION-ANSWER PAIRS FOR EACH TASK.</p>
-            </div>
+        <!-- 上面这张 pair.png 单独一块 -->
+        <div class="box m-5">
+          <div class="content has-text-centered">
+            <img src="static/images/pair.png"
+                 alt="Task statistics in WildVideo"
+                 style="width:70%; max-width:900px;">
+            <p>THE NUMBER OF SINGLE-TURN AND MULTI-TURN QUESTION-ANSWER PAIRS FOR EACH TASK.</p>
           </div>
-
-        <div id="dataset-carousel" class="carousel results-carousel">
-
+        </div>
         
-          <!-- 第 1 页：Single-turn + Multi-turn 并排 -->
+        <!-- Dataset statistics 标题 + 轮播 -->
         <div class="columns is-centered m-6">
           <div class="column is-full has-text-centered content">
             <h2 class="title is-3">Dataset statistics</h2>
@@ -875,6 +873,7 @@
               video duration and QA-per-turn counts.
             </p>
         
+            <!-- 真正唯一的 dataset-carousel：只有这一个！ -->
             <div id="dataset-carousel" class="carousel results-carousel">
         
               <!-- 第 1 页：Single-turn & Multi-turn（上下排列） -->
