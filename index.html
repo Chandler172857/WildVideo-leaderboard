@@ -867,57 +867,50 @@
 
         
           <!-- 第 1 页：Single-turn + Multi-turn 并排 -->
-          <div class="box m-5"
-              style="transform:scale(0.5); transform-origin: center center; margin:0 auto;">  
-            <div class="columns is-centered">
-              <!-- 左边：Single-turn -->
-              <div class="column is-6">
+              <div class="box m-5"
+                   style="transform:scale(0.5); transform-origin: center center; margin:0 auto;">
+              
+                <!-- 上面：Single-turn -->
                 <div class="content has-text-centered">
                   <img src="static/images/Dataset_statistics/Single_turn_questions.png"
                        alt="Single-turn questions"
                        style="width:90%;">
                   <p>Single-turn question distribution.</p>
                 </div>
-              </div>
-        
-              <!-- 右边：Multi-turn -->
-              <div class="column is-6">
-                <div class="content has-text-centered">
+              
+                <!-- 下面：Multi-turn -->
+                <div class="content has-text-centered" style="margin-top:2rem;">
                   <img src="static/images/Dataset_statistics/Multi_turn_questions.png"
                        alt="Multi-turn questions"
                        style="width:90%;">
                   <p>Multi-turn question distribution.</p>
                 </div>
-              </div>
+              </div>    
             </div>
           </div>
 
-          <!-- 第 3 页：Duration -->
+          <!-- 第 3 页：Duration + QA per turn（同一页、同一列、上下排列） -->
           <div class="box m-5"
-              style="transform:scale(0.5); transform-origin: center center; margin:0 auto;"> 
+               style="transform:scale(0.5); transform-origin: center center; margin:0 auto;">
             <div class="columns is-centered">
               <div class="column is-8">
+          
+                <!-- 上面：Duration -->
                 <div class="content has-text-centered">
                   <img src="static/images/Dataset_statistics/Duration_distribution.png"
-                      alt="Duration distribution"
-                      style="width:90%;">
+                       alt="Duration distribution"
+                       style="width:90%;">
                   <p>Duration (seconds) of videos in WildVideo.</p>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 第 4 页：QA per turn -->
-          <div class="box m-5"
-              style="transform:scale(0.5); transform-origin: center center; margin:0 auto;"> 
-            <div class="columns is-centered">
-              <div class="column is-8">
-                <div class="content has-text-centered">
+          
+                <!-- 下面：QA per turn -->
+                <div class="content has-text-centered" style="margin-top:2rem;">
                   <img src="static/images/Dataset_statistics/distribution.png"
-                      alt="QA per turn"
-                      style="width:90%;">
+                       alt="QA per turn"
+                       style="width:90%;">
                   <p>Number of QAs per turn in multi-turn dialogues.</p>
                 </div>
+          
               </div>
             </div>
           </div>
