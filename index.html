@@ -865,28 +865,26 @@
 
         <div id="dataset-carousel" class="carousel results-carousel">
 
-          <!-- 第 1 页：Single-turn -->
+        
+          <!-- 第 1 页：Single-turn + Multi-turn 并排 -->
           <div class="box m-5">
             <div class="columns is-centered">
-              <div class="column is-8">
+              <!-- 左边：Single-turn -->
+              <div class="column is-6">
                 <div class="content has-text-centered">
                   <img src="static/images/Dataset_statistics/Single_turn_questions.png"
-                      alt="Single-turn questions"
-                      style="width:90%;">
+                       alt="Single-turn questions"
+                       style="width:90%;">
                   <p>Single-turn question distribution.</p>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <!-- 第 2 页：Multi-turn -->
-          <div class="box m-5">
-            <div class="columns is-centered">
-              <div class="column is-8">
+        
+              <!-- 右边：Multi-turn -->
+              <div class="column is-6">
                 <div class="content has-text-centered">
                   <img src="static/images/Dataset_statistics/Multi_turn_questions.png"
-                      alt="Multi-turn questions"
-                      style="width:90%;">
+                       alt="Multi-turn questions"
+                       style="width:90%;">
                   <p>Multi-turn question distribution.</p>
                 </div>
               </div>
@@ -953,8 +951,7 @@
             <div class="content has-text-centered">
               <img src="static/images/Experiment/Single_turn.png"
                    alt="context"
-                   class="stats-image"
-                   style="width:180%; max-width:none; height:auto;">
+                   class="stats-image">
               <p>Performance of Single-turn tasks</p>
             </div>
           </div>
@@ -963,8 +960,7 @@
             <div class="content has-text-centered">
               <img src="static/images/Experiment/Multi_turn.png"
                    alt="category"
-                   class="stats-image"
-                   style="width:180%; max-width:none; height:auto;">
+                   class="stats-image">
               <p>Performance of Multi-turn tasks</p>
             </div>
           </div>
